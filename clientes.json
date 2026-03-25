@@ -1,0 +1,52 @@
+{
+  "clientes": [
+    {
+      "dni": "11111111",
+      "nombre": "agus foutel",
+      "scoring": 1,
+      "siguiendo": []
+    },
+    {
+      "dni": "33333333",
+      "nombre": "pipo",
+      "scoring": 3,
+      "siguiendo": []
+    },
+    {
+      "dni": "66666666",
+      "nombre": "pedro",
+      "scoring": 6,
+      "siguiendo": [
+        "33333333"
+      ]
+    },
+    {
+      "dni": "22222222",
+      "nombre": "lucho",
+      "scoring": 2,
+      "siguiendo": []
+    },
+    {
+      "dni": "55555555",
+      "nombre": "jesus",
+      "scoring": 5,
+      "siguiendo": [
+        "22222222"
+      ]
+    }
+  ],
+  "relaciones": [
+    {
+      "dni1": "11111111",
+      "dni2": "22222222"
+    },
+    {
+      "dni1": "33333333",
+      "dni2": "22222222"
+    },
+    {
+      "dni1": "33333333",
+      "dni2": "55555555"
+    }
+  ]
+}
