@@ -1,5 +1,5 @@
 import java.util.Date;
-
+//
 public class Accion {
     private String tipo;
     private String detalles;
